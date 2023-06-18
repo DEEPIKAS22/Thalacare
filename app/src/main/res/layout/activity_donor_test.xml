@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorTest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/DonorLoginpage"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:text="DONOR TEST"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/donorTest"
+                android:layout_width="280dp"
+                android:layout_height="211dp"
+                android:layout_gravity="center"
+                android:src="@drawable/test2" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone No." />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Allergies (If any) " />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth " />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:textSize="22dp"
+                    android:text="Gender"
+                    android:textColor="#05000C"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/radioGroup">
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="  Male    "
+                        android:checked="false"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="   Female"
+                        android:checked="false"
+                        android:textSize="20dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="22dp"
+                android:text="Blood group"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1">
+                <RadioButton
+                    android:id="@+id/radioBGApos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  A+"
+                    android:checked="false"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioBGAneg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   A-"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGBpos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   B+"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGBneg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   B-"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGOpos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   O-"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGOneg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   O+"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGABpos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   AB+"
+                    android:checked="false"
+                    android:textSize="20dp" />
+                <RadioButton
+                    android:id="@+id/radioBGABneg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   AB-"
+                    android:checked="false"
+                    android:textSize="20dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewEaten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="1. Have you eaten anything in last 4 hours?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup2">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewSleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="2. Have you slept well last night?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup3">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewDrug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="3. Have you taken any drug containing aspirin in the last 3 days?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup4">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewMedicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="4. Are you taking any medicine at present?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup5">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewDonated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="5 a). Have you donated blood in last 3 months?(male 3 months/female 4 months)"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup6">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewDonated2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="5 b). Did you have any discomfort during prior blood donation?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup7">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Jaundice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="6 a). Have you had a jaundice in the last 1 year?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup8">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/HBsAg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="6 b). Has your blood ever tested positive for HBsAg? (Hepatitis B surface Antigen)"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup9">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="6 c). Has any of your family members suffered from jaundice or dengue in the last 6 months?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup10">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Malaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="7. Have you had malaria or taken antimalarial drugs in the last 6 months?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup11">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/infected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="8. Have you any reason to believe you have been infected by the virus that causes AIDS?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup12">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/Habbit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="9. In the last 6 months have you had "
+                android:textColor="#05000C"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/H1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Night Sweats"/>
+
+            <CheckBox
+                android:id="@+id/H2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diarrhoea"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+            <CheckBox
+                android:id="@+id/H3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unexpected weight loss Swollen glands"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            <CheckBox
+                android:id="@+id/H4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Persistent fever"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+
+            <TextView
+                android:id="@+id/UnprotectedSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="10. Have you had unprotected sex with any unusual partner in the last 2 weeks?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup13">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="11. Have you had any of the following in the last 6 months? "
+                android:textColor="#05000C"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Typhoid"/>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Malaria"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Measles"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zika"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mumps"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dengue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicken Pox"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chikungunya"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <TextView
+                android:id="@+id/Accident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="12. Have you had any accident, major operation in last 1 year or dental procedure in last 2 weeks?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup14">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/BloodComp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="13. Have you received any blood or blood components in the last 6 months?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup15">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Tattoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="14. Have you had tattoo, acupuncture or ear piercing in the 6 months?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup16">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Rabies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="15. H/O Dog bite and history of taking rabies vaccination withing a year?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup17">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Diseas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="11. Have you had any of the following? If yes, tick appropriate one "
+                android:textColor="#05000C"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/D1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Allergiey"/>
+
+            <CheckBox
+                android:id="@+id/D2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amoebiasis"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+            <CheckBox
+                android:id="@+id/D3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Polycythemia Vera"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            <CheckBox
+                android:id="@+id/D4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bleeding tendency"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+            <CheckBox
+                android:id="@+id/D5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+            <CheckBox
+                android:id="@+id/D6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schizophrenia"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+            <CheckBox
+                android:id="@+id/D7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diabetes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+            <CheckBox
+                android:id="@+id/D8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fainting Attack"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leprosy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fever"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+
+            <CheckBox
+                android:id="@+id/D12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organ Transplant"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart disease"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Influenza"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Autoimmune disease"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kidney disease"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lung disease"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skin disease"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <CheckBox
+                android:id="@+id/D19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syphilis"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+            <TextView
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="16. In case of woman:"
+                android:textColor="#05000C"/>
+
+            <TextView
+                android:id="@+id/Pregnant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="16 a).Are you pregnant?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup18">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="16 b).Have you a child less than 1 year of age?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup19">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Abortion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="16 c).Have you had an abortion in the last 6 months? (or Mensuration)"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup20">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                android:text="17 Have you read and understood all the information presented to you and have you answered all the questions?"
+                android:textColor="#05000C"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup21">
+
+                <RadioButton
+                    android:id="@+id/TestingyesD20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="  Yes    "
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/TestingnoD20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   No"
+                    android:checked="false"
+                    android:textSize="16dp" />
+
+            </RadioGroup>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/document"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload your Blood test report"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#05000C"/>
+
+            <Button
+                android:id="@+id/upload_ButtonD"
+                android:layout_width="180dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:background="#050000"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/aadhar"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload your aadhar card"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#05000C"/>
+
+            <Button
+                android:id="@+id/BloodReportButtonD"
+                android:layout_width="180dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:background="#050000"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="246dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#4a16b9"
+                android:elevation="0dp"
+                android:id="@+id/SubmitTD"
+                android:text="Submit"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ThalassemiaApplication</string>
+    <string name="google_maps_key">AIzaSyA23yreSyTEHG1qkvaGpgcdSiI1s_eFBJw</string>
+
+    <string-array name="groups">
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

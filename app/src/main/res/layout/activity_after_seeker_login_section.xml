@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterSeekerLoginSection"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="228dp"
+        android:background="#0E0D0D"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/Sname"
+            android:layout_width="wrap_content"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:text="DEEPIKA"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/donorpic"
+            android:layout_width="121dp"
+            android:layout_height="118dp"
+            android:src="@drawable/user" />
+
+
+        <TextView
+            android:id="@+id/SUname"
+            android:layout_width="190dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:text="Deepika"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="-100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Test"
+            android:layout_width="5dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#4a16b9"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="#070707"
+                android:padding="7dp">
+
+                <TextView
+                    android:id="@+id/giveTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+
+                    android:includeFontPadding="false"
+                    android:text="Give test"
+                    android:textColor="#FFFF"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Sschedule"
+            android:layout_width="5dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#4a16b9"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0E0D0D"
+                android:padding="7dp">
+
+                <TextView
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Check Schedule"
+                    android:textColor="#FFFF"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="332dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/person"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/person" />
+
+            <TextView
+                android:id="@+id/SnameRetrive"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="DEEPIKA SAHU"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/DUnameImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/SUnameRetrive"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="Deepika"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/DEmailImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/SemailRetrive"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="deepikas8149@gmail.com"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/DPhoneImage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/SPhoneRetrive"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="7900055411"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width = "1dp"
+            android:layout_height = "40dp"/>
+
+        <Button
+            android:id="@+id/logOutSeeker"
+            android:layout_width="258dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:background="#0C0B0C"
+            android:text="Log out"
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

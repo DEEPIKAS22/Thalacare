@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgthalacare">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:layout_marginTop="132dp"
+        android:src="@drawable/bdfinal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="ThalaCare"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#DC1212"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text=" Find a hero in you!"
+        android:textAlignment="center"
+        android:textColor="#DC1212"
+        android:textColorHighlight="#4F01DA"
+        android:textColorHint="#4F01DA"
+        android:textColorLink="#4F01DA"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

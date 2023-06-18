@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="30sp"
+    android:orientation="vertical"
+    tools:context=".Dashboard"
+    android:background="@drawable/bgthalacare2">
+
+    <Space
+        android:layout_width = "1dp"
+        android:layout_height = "40dp"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About us"
+        android:textAlignment="center"
+        android:textColor="#050000"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAkash"
+        android:layout_width="405dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteY="115dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="218dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginLeft="79dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:layout_marginBottom="96dp"
+                android:gravity="center"
+                android:text="TEJASVI MAYEKAR"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="172dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="121dp"
+
+                android:textColor="#050000"
+
+                android:layout_marginRight="121dp"
+                android:layout_marginBottom="51dp"
+                android:gravity="center"
+                android:text="97690 83590"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="345dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="101dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="11dp"
+                android:text="tejasvimayekar@kccemsr.edu.in"
+                android:gravity="center"
+                android:textAlignment="center"
+
+                android:textColor="#050000"
+
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViash"
+        android:layout_width="405dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="291dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:layout_marginBottom="104dp"
+                android:gravity="center"
+                android:textColor="#050000"
+                android:text="VAISHNAVI NALAWADE"
+                android:textAlignment="center"
+
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="172dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:textColor="#050000"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="121dp"
+                android:layout_marginRight="121dp"
+                android:layout_marginBottom="51dp"
+                android:gravity="center"
+                android:text="99674 01074"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="361dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:textColor="#050000"
+                android:layout_marginTop="101dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="7dp"
+                android:text="vaishnavinalawade@kccemsr.edu.in"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDeepika"
+        android:layout_width="405dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="218dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:layout_marginBottom="96dp"
+                android:gravity="center"
+                android:text="DEEPIKA SAHU"
+                android:textAlignment="center"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="172dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="121dp"
+                android:layout_marginRight="121dp"
+                android:layout_marginBottom="51dp"
+                android:gravity="center"
+                android:text="7900055411"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="345dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="101dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center"
+                android:text="deepikasahu@kccemsr.edu.in"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPranav"
+        android:layout_width="405dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:background="@drawable/bg">
+
+            <TextView
+                android:id="@+id/textViewP"
+                android:layout_width="291dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:layout_marginBottom="104dp"
+                android:gravity="center"
+                android:text="PRANAV TANNA"
+                android:textColor="#050000"
+                android:textAlignment="center"
+
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewp2"
+                android:layout_width="172dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="121dp"
+                android:layout_marginRight="121dp"
+                android:layout_marginBottom="51dp"
+                android:gravity="center"
+                android:text="98671 22293"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textViewp3"
+                android:layout_width="361dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="101dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="7dp"
+                android:text="pranavtanna@kccemsr.edu.in"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#050000"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

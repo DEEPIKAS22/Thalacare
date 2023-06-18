@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donor_signup"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bgthalacare2">
+
+    <TextView
+        android:id="@+id/SignupDonorPage"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="DONOR SIGN UP"
+        android:textColor="#050000"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/donorsignup"
+        android:layout_width="307dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription"
+        android:src="@drawable/donor" />
+
+    <TextView
+        android:id="@+id/SignupDonortext"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:text="WELCOME!"
+        android:textColor="#050000"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/SignupDonortext1"
+        android:layout_width="343dp"
+        android:layout_height="28dp"
+        android:text="SignUp to start."
+        android:textColor="#050000"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/editTextSignupDonorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Fullname" />
+
+        <EditText
+            android:id="@+id/editTextSignupDonorId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/editTextSignupDonorMailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="EmailId" />
+
+        <EditText
+            android:id="@+id/editTextSignupDonorPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPhonetic"
+            android:hint="PhoneNo" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:textColorHint="#B9B8B8"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/editTextSignupDonorPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/bloodGroupD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Group:"
+            android:textColor="#341C5E"
+            tools:ignore="HardcodedText" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerD" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="#341C5E"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup
+            android:layout_width="333dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="290dp"
+            android:layout_marginRight="290dp"
+            android:layout_marginBottom="0dp"
+            tools:ignore="RtlHardcoded">
+
+            <RadioButton
+                android:id="@+id/donorMale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#3A2167"
+                tools:ignore="HardcodedText"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/donorFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#050000"
+                android:checked="false"
+                tools:ignore="HardcodedText" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/donorGo"
+            android:layout_width="246dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#4a16b9"
+            android:elevation="0dp"
+            android:text="GO"
+            android:textColor="#FFFFFF"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchedulePageSeeker"
+    android:background="@drawable/schedule">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="374dp"
+        android:layout_height="332dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SeekerTest"
+            android:layout_width="344dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#ED552F"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:padding="7dp">
+
+
+                <TextView
+                    android:id="@+id/SgiveTest"
+                    android:layout_width="160dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="93dp"
+                    android:layout_marginTop="37dp"
+                    android:layout_marginEnd="84dp"
+                    android:layout_marginBottom="214dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="SCHEDULE"
+                    android:textColor="#FBF9F9"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Stime"
+                    android:layout_width="324dp"
+                    android:layout_height="128dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="38dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="No Schedule Yet!"
+                    android:textColor="#FBF9F9"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewSeeker"
+        android:layout_width="248dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="Hello welcome!"
+        android:textColor="#FBF9F9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "214936320414",
+    "project_id": "thalacare-444e1",
+    "storage_bucket": "thalacare-444e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214936320414:android:61e4f71a3ce6ed2fbcbe8f",
+        "android_client_info": {
+          "package_name": "com.example.thalassemiaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214936320414-d4c9opo653s8bqs6181fhstoi748kjum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thalassemiaapplication",
+            "certificate_hash": "65d4c98913eb9c3a03819951e093fe6349365bae"
+          }
+        },
+        {
+          "client_id": "214936320414-69vkbtlfifp3ea4lnhe2guk7og8533rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzGEKN1SgJWgGZSeYcCtPUjB-xi-runHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214936320414-69vkbtlfifp3ea4lnhe2guk7og8533rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
